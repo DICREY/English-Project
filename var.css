@@ -1,0 +1,42 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --darkcyan:#0B5565;
+    --cyan:cyan;
+    --dark: #1f1f1f;
+    --orange:#C93608E5;
+    --blue:#0150EB;
+    --blue-dark:#02273D;
+    --yellow:#ffb700f0;
+    --black-opacity:#00000054;
+    --coffe:#4e3224;
+    --darkgolden:darkgoldenrod;
+    --font-size:0.8rem;
+    --font-size-Btext:0.5rem;
+    --font-size-ftext:0.7rem;
+    --font-size-Ltext:0.7rem;
+}
+@media (min-width:600px) {
+    :root{
+        --font-size-Btext:0.8rem;
+        --font-size-Ltext:1rem;
+        --font-size-ftext:1rem;
+        --font-size:1.4rem
+    }
+}
+@media (min-width:1000px) {
+    :root{
+        --font-size-Btext:1.1rem;
+        --font-size-Ltext:1.3rem;
+        --font-size-ftext:1.6rem;
+        --font-size:2rem;
+    }
+}
+@media (min-width:1400px) {
+    :root{
+        --font-size-Btext:1.3rem;
+        --font-size-Ltext:1.5rem;
+        --font-size-ftext:1.8rem;
+        --font-size:2.2rem;
+    }
+}
