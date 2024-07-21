@@ -12,12 +12,14 @@
     --coffe:#4e3224;
     --darkgolden:darkgoldenrod;
     --font-size:0.8rem;
+    --font-size-Exit:1.5rem;
     --font-size-Btext:0.5rem;
     --font-size-ftext:0.7rem;
     --font-size-Ltext:0.7rem;
 }
 @media (min-width:600px) {
     :root{
+        --font-size-Exit:1.8rem;
         --font-size-Btext:0.8rem;
         --font-size-Ltext:1rem;
         --font-size-ftext:1rem;
@@ -26,6 +28,7 @@
 }
 @media (min-width:1000px) {
     :root{
+        --font-size-Exit:2rem;
         --font-size-Btext:1.1rem;
         --font-size-Ltext:1.3rem;
         --font-size-ftext:1.6rem;
@@ -34,6 +37,7 @@
 }
 @media (min-width:1400px) {
     :root{
+        --font-size-Exit:2.2rem;
         --font-size-Btext:1.3rem;
         --font-size-Ltext:1.5rem;
         --font-size-ftext:1.8rem;

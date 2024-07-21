@@ -98,18 +98,37 @@ article {
     box-shadow: none;
 }
 .art-left img{
-    height: auto;
-    width: 100%;
-    object-fit: start;
+    cursor: pointer;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
 .img-transition {
     position: fixed;
-    top: 0px;
-    left: 30vw;
-    height: 60vh;
-    width: 20vw;
+    cursor:default;
+    top: 0;
+    left: 2.5%;
+    height: 30%;
+    max-width: 95%;
+    transform: scale(0.8);
+    z-index: 4;
+    box-shadow: 0 0 30px;
+    outline: 2px solid var(--dark);
+}
+.exit {
+    position: fixed;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    color: var(--white);
+    font-size: var(--font-size-Exit);
+    top: 11%;
+    left: 82%;
+    background: transparent;
+    text-shadow: 0 0 10px;  
+    z-index: 5;
 }
 .art-right p {
     padding: 8px;
@@ -253,4 +272,9 @@ article {
     color: var(--white);
     gap: 20px;
     background: var(--black-opacity);
+}
+@media (min-width:1000px) {
+    .exit {
+        left: 85%;
+    }
 }
